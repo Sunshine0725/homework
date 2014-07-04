@@ -1,9 +1,9 @@
 package gyyx.model;
 
 public class Game {
-
+	//游戏id
 	private int code;
-	
+	//游戏名称
 	private String game;
 	
 	public int getCode() {
