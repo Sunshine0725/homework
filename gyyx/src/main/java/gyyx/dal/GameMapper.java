@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface GameMapper {
 	
-	//获取游戏列表
+	//鑾峰彇娓告垙鍒楄〃
 	List<Game> getGameList();
 }
