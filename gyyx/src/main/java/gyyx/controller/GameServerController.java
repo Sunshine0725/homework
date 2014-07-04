@@ -43,7 +43,7 @@ public class GameServerController {
 	public void setServerService(ServerServiceI serverService) {
 		this.serverService = serverService;
 	}				
-	
+	//获取游戏列表 
 	@RequestMapping("/gameserver")
 	public String showGameServer(Model model, HttpServletRequest request) {
 		List<Game> list = gameService.GetGameList();
@@ -51,7 +51,7 @@ public class GameServerController {
 		return "showGameServer";
 	}
 	
-	
+	//获取服务器列表
 	@RequestMapping("/serverlist")
 	@ResponseBody
 	public List<GameServer> getServerList(int code)
