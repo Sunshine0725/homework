@@ -5,6 +5,6 @@ import gyyx.model.GameServer;
 import java.util.List;
 
 public interface ServerServiceI {
-	//»ñÈ¡·şÎñÆ÷ÁĞ±í
+	//è·å–æœåŠ¡å™¨åˆ—è¡¨
 	List<GameServer> GetServerList(int code);
 }
