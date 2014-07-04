@@ -1,11 +1,11 @@
 package gyyx.model;
 
 public class GameServer {
-
+	//服务器编号
 	private int id;
-	
+	//所属游戏id
 	private int gameCode;
-	
+	//服务器名称
 	private String name;
 	
 	public int getId() {
