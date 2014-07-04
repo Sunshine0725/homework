@@ -5,6 +5,6 @@ import gyyx.model.GameServer;
 import java.util.List;
 
 public interface ServerMapper {
-	//»ñÈ¡·şÎñÆ÷ÁĞ±í
+	//è·å–æœåŠ¡å™¨åˆ—è¡¨
 	List<GameServer> getServerList(int gameCode);
 }
